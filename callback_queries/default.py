@@ -93,7 +93,7 @@ async def get_location(message: Message, state: FSMContext):
                 res += f"{index}. <b>{item[0]}</b> {item[2]}шт - {item[1]}$\n"
                 summa += item[1]
 
-        res += f"\n\n📍 Локация: <code>{lat}</code> - <code>{lon}</code>"
+        res += f"\n📍 Локация: <code>{lat}</code> - <code>{lon}</code>\n💰 Итого: <b>{summa}$</b>"
 
         await state.clear()
         await message.answer("🕔 Заказ отправлен")
