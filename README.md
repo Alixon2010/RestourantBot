@@ -16,12 +16,11 @@ Telegram-бот на Python (Aiogram) для заказа еды: с меню, �
 - Aiogram 3
 - SQLAlchemy
 - PostgreSQL
-- dotenv
 
 ## 📦 Установка
 
 1. Клонируй репозиторий:
 
 ```bash
-git clone https://github.com/your-username/restaurant-bot.git
+git clone https://github.com/Alixon2010/RestourantBot.git
 cd restaurant-bot
