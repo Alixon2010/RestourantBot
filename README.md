@@ -23,4 +23,4 @@ Telegram-бот на Python (Aiogram) для заказа еды: с меню, �
 
 ```bash
 git clone https://github.com/Alixon2010/RestourantBot.git
-cd restaurant-bot
+cd RestourantBot
